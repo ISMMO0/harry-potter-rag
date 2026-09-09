@@ -1,0 +1,24 @@
+{
+  "status": "completed-needs-human-support-review",
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "llm_model": "qwen2.5:1.5b",
+  "question": "What does the Sorting Hat do, and which house is Harry in?",
+  "retrieved": [
+    {
+      "id": 1,
+      "source": "hogwarts.md",
+      "page": 1,
+      "score": 0.6974308490753174,
+      "text": "# Hogwarts and the Sorting Hat Hogwarts is a school for young witches and wizards. Its four houses are Gryffindor, Hufflepuff, Ravenclaw and Slytherin. The Sorting Hat assigns new students to a house by considering their qualities and preferences. Harry Potter, Hermione Granger and Ron Weasley belong to Gryffindor. The school's headmaster during much of Harry's education is Albus Dumbledore."
+    }
+  ],
+  "answer": "The Sorting Hat assigns new students to a house by considering their qualities and preferences. Harry Potter is in Gryffindor. [1]",
+  "citation_ids_valid": true,
+  "evidence_supports_answer": true,
+  "limitation": "Manually reviewed for this one smoke-test answer only; valid citation IDs do not generally prove support.",
+  "elapsed_seconds": 6.894020707999999
+}

@@ -1,0 +1,7 @@
+# Environment snapshot for the core demo, not a complete dependency lock.
+streamlit==1.50.0
+pypdf==6.18.0
+pytest==8.4.2
+numpy==2.0.2
+sentence-transformers==5.1.2
+torch==2.8.0

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.streamlit/secrets.toml
+private_data/
+*.pdf
+.DS_Store
+# Locally supplied reference artwork and screenshots with unclear redistribution rights.
+assets/harry-potter-logo.png
+assets/hogwarts-castle.jpg
+assets/project-demo.png
+assets/rag-demo.png
