@@ -88,7 +88,6 @@ potter-rag/
 │   ├── books/                   # Active seven-summary corpus
 │   ├── legacy/                  # Archived starter notes
 │   └── PROVENANCE.md            # Corpus and rights disclosure
-├── assets/                      # UI artwork, logo and README screenshot
 ├── templates/                   # Reusable summary-document template
 ├── tests/                       # Unit, app and optional integration tests
 ├── evaluate.py                  # Retrieval evaluation runner
