@@ -6,6 +6,8 @@ The project is designed as a transparent portfolio system. Every answer exposes 
 
 > The corpus contains independently written prose summaries, not the Harry Potter novels. This is an unofficial, non-commercial engineering demonstration.
 
+![Potter RAG interface preview](assets/rag-interface-preview.svg)
+
 ## Product experience
 
 The interface supports two workflows:
@@ -88,6 +90,7 @@ potter-rag/
 │   ├── books/                   # Active seven-summary corpus
 │   ├── legacy/                  # Archived starter notes
 │   └── PROVENANCE.md            # Corpus and rights disclosure
+├── assets/                      # Public-safe README interface preview
 ├── templates/                   # Reusable summary-document template
 ├── tests/                       # Unit, app and optional integration tests
 ├── evaluate.py                  # Retrieval evaluation runner
